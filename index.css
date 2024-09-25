@@ -1,0 +1,12 @@
+body {
+    background-color: #36A0AC;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: white;
+}
+
+.upperCase {
+    text-transform: uppercase;
+}
