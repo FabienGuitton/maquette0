@@ -11,50 +11,49 @@
 
     <body>
         <!-- Toute la page 1 -->
-        <div class="contain_first">
+        <div class="contain-first">
             <!-- Extérieur de la page 1 -->
             <div >
                 <!-- Intérieur de la page 1 -->
                 <div>
-                    <!-- Logo -->
-                    <div>
-                        <a href="#"><img src="" alt="LOGO"></a>
-                    </div>
-
                     <!-- Menu de la page -->
-                    <div>
+                    <header class="contain-header item">
+                        <!-- Logo -->
                         <div>
-                            <!-- Bouton lien menu recrutement -->
-                            <div>
-                                <a href="#" class="upperCase">recrutement</a>
-                            </div>
-
-                            <!-- Bouton lien menu intérim -->
-                            <div>
-                                <a href="#" class="upperCase">intérim</a>
-                            </div>
-
-                            <!-- Bouton lien menu performance -->
-                            <div>
-                                <a href="#" class="upperCase">performance</a>
-                            </div>
-
-                            <!-- Bouton lien menu transformation -->
-                            <div>
-                                <a href="#" class="upperCase">transformation</a>
-                            </div>
-
-                            <!-- Bouton lien menu à propos -->
-                            <div>
-                                <a href="#" class="upperCase">a propos</a>
-                            </div>
-
-                            <!-- Bouton lien menu ressources -->
-                            <div>
-                                <a href="#" class="upperCase">ressources</a>
-                            </div>
+                            <p id="logo" class="upperCase">Logo</p>
+                            <!-- Si le logo a une image il faudra mettre la ligne en commentaire et supprimer celle au dessus. -->
+                            <!-- <a id="logo" class="upperCase" href="#"><img src="" alt="LOGO"></a> -->
                         </div>
-                    </div>
+                        <!-- Bouton lien menu recrutement -->
+                        <div>
+                            <a href="#" class="upperCase text-header">recrutement</a>
+                        </div>
+
+                        <!-- Bouton lien menu intérim -->
+                        <div>
+                            <a href="#" class="upperCase text-header">intérim</a>
+                        </div>
+
+                        <!-- Bouton lien menu performance -->
+                        <div>
+                            <a href="#" class="upperCase text-header">performance</a>
+                        </div>
+
+                        <!-- Bouton lien menu transformation -->
+                        <div>
+                            <a href="#" class="upperCase text-header">transformation</a>
+                        </div>
+
+                        <!-- Bouton lien menu à propos -->
+                        <div>
+                            <a href="#" class="upperCase text-header">a propos</a>
+                        </div>
+
+                        <!-- Bouton lien menu ressources -->
+                        <div>
+                            <a href="#" class="upperCase text-header">ressources</a>
+                        </div>
+                    </header>
 
                     <h1>évoluer, performer, transformer, penser en athlète !</h1>
                 </div>
@@ -62,31 +61,35 @@
         </div>
 
         <!-- Menu du bouton liens réseaux -->
-        <div>
-            <!-- Bouton de partage -->
-            <a href="#"><img src="" alt="Image de partage"></a>
+        <div class="contain-share">
+            <ul>
+                <li>
+                    <!-- Bouton de partage -->
+                    <a class="contain-share-back img-share" href="#"><img src="./Images/logo_share.png" alt="Image de partage"></a>
 
-            <div>
-                <!-- Bouton lien linkedin -->
-                <div>
-                    <a href="#"><img src="" alt="Image de linkedin"></a>
-                </div>
+                    <ul>
+                        <li>
+                            <!-- Bouton lien linkedin -->
+                            <a class="contain-share-back img-share" href="#"><img src="./Images/logo_linkedin.png" alt="Image de linkedin"></a>
+                        </li>
 
-                <!-- Bouton lien facebook -->
-                <div>
-                    <a href="#"><img src="" alt="Image de facebook"></a>
-                </div>
+                        <li>
+                            <!-- Bouton lien facebook -->
+                            <a class="contain-share-back img-share" href="#"><img src="./Images/logo_facebook.png" alt="Image de facebook"></a>
+                        </li>
 
-                <!-- Bouton lien twitter -->
-                <div>
-                    <a href="#"><img src="" alt="Image de twitter"></a>
-                </div>
+                        <li>
+                            <!-- Bouton lien twitter -->
+                            <a class="contain-share-back img-share" href="#"><img src="./Images/logo_twitter.png" alt="Image de twitter"></a>
+                        </li>
 
-                <!-- Bouton lien boite email -->
-                <div>
-                    <a href="#"><img src="" alt="Image de boite email"></a>
-                </div>
-            </div>
+                        <li>
+                            <!-- Bouton lien boite email -->
+                            <a class="contain-share-back img-share" href="#"><img src="./Images/logo_email.png" alt="Image de boite email"></a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
         </div>
     </body>
 </html>
