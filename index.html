@@ -5,59 +5,110 @@
         <meta name="author" content="Fabien Guitton">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="index.css" media="all">
+        <script defer src="index.js"></script>
 
         <title>Maquette Integration</title>
     </head>
 
     <body>
-        <!-- Toute la page 1 -->
-        <div class="contain-first">
-            <!-- Extérieur de la page 1 -->
-            <div >
-                <!-- Intérieur de la page 1 -->
+        <!-- 1er Bloc -->
+        <div id="bloc_1" class="contain-accueil">
+            <header class="contain-header items-header">
+                <!-- Logo -->
+                <div id="logo">
+                    logo
+                    <!-- Si le logo a une image il faudra mettre la ligne en commentaire et supprimer celle au dessus. -->
+                    <!-- <a id="logo" class="upperCase" href="#"><img src="" alt="LOGO"></a> -->
+                </div>
+
+                <!-- Bouton lien menu recrutement -->
                 <div>
-                    <!-- Menu de la page -->
-                    <header class="contain-header item">
-                        <!-- Logo -->
-                        <div>
-                            <p id="logo" class="upperCase">Logo</p>
-                            <!-- Si le logo a une image il faudra mettre la ligne en commentaire et supprimer celle au dessus. -->
-                            <!-- <a id="logo" class="upperCase" href="#"><img src="" alt="LOGO"></a> -->
-                        </div>
-                        <!-- Bouton lien menu recrutement -->
-                        <div>
-                            <a href="#" class="upperCase text-header">recrutement</a>
-                        </div>
+                    <a href="#" class="text-header">recrutement</a>
+                </div>
 
-                        <!-- Bouton lien menu intérim -->
-                        <div>
-                            <a href="#" class="upperCase text-header">intérim</a>
-                        </div>
+                <!-- Bouton lien menu intérim -->
+                <div>
+                    <a href="#" class="text-header">int&eacute;rim</a>
+                </div>
 
-                        <!-- Bouton lien menu performance -->
-                        <div>
-                            <a href="#" class="upperCase text-header">performance</a>
-                        </div>
+                <!-- Bouton lien menu performance -->
+                <div>
+                    <a href="#" class="text-header">performance</a>
+                </div>
 
-                        <!-- Bouton lien menu transformation -->
-                        <div>
-                            <a href="#" class="upperCase text-header">transformation</a>
-                        </div>
+                <!-- Bouton lien menu transformation -->
+                <div>
+                    <a href="#" class="text-header">transformation</a>
+                </div>
 
-                        <!-- Bouton lien menu à propos -->
-                        <div>
-                            <a href="#" class="upperCase text-header">a propos</a>
-                        </div>
+                <!-- Bouton lien menu à propos -->
+                <div>
+                    <a href="#" class="text-header">a propos</a>
+                </div>
 
-                        <!-- Bouton lien menu ressources -->
-                        <div>
-                            <a href="#" class="upperCase text-header">ressources</a>
-                        </div>
-                    </header>
+                <!-- Bouton lien menu ressources -->
+                <div>
+                    <a href="#" class="text-header">ressources</a>
+                </div>
 
-                    <h1>évoluer, performer, transformer, penser en athlète !</h1>
+                <!-- Bouton recherche -->
+                <div>
+                    <a href="#"><img src="./Images/icone_recherche.png" alt="Bouton pour effectuer une recherche"></a>
+                </div>
+            </header>
+
+            <!-- Intérieur de la page de base -->
+            <div id="pageBase">
+                <h1>&eacute;voluer, performer, <br>transformer,<br> penser en athl&egrave;te !</h1>
+            </div>
+
+            <!-- Intérieur de la page Recrutement -->
+            <div id="pageRecrutement">
+                <h1>identifier le bon talent</h1>
+            </div>
+
+            <!-- Intérieur de la page Intérim -->
+            <div id="pageInterim">
+                <h1>assurer la transition</h1>
+            </div>
+
+            <!-- Intérieur de la page Performance -->
+            <div id="pagePerformance">
+                <h1>facilier le leadership developpement</h1>
+            </div>
+
+            <!-- Intérieur de la page Transformation -->
+            <div id="pageTransformation">
+                <h1>acc&eacute;l&eacute;rer la transformation digitale & rse</h1>
+            </div>
+
+            <!-- Bloc de changement de menu -->
+            <div class="contain-different-menu items-different-menu">
+                <!-- Bloc de changement pour accéder à recreutement -->
+                <div id="menu_changement_recrutement" class="text-different-menu">
+                    recrutement
+                </div>
+                
+                <!-- Bloc de changement pour accéder à intérim -->
+                <div id="menu_changement_interim" class="text-different-menu">
+                    int&eacute;rim
+                </div>
+                
+                <!-- Bloc de changement pour accéder à performance -->
+                <div id="menu_changement_performance" class="text-different-menu">
+                    performance
+                </div>
+                
+                <!-- Bloc de changement pour accéder à transformation -->
+                <div id="menu_changement_transformation" class="text-different-menu">
+                    transformation
                 </div>
             </div>
+        </div>
+
+        <!-- 2 ème Bloc-->
+        <div>
+            <h2>la diff&eacute;rence qui fera votre diff&eacute;rence</h2>
         </div>
 
         <!-- Menu du bouton liens réseaux -->
@@ -66,23 +117,23 @@
                 <li>
                     <!-- Bouton de partage -->
                     <a class="contain-share-back img-share" href="#"><img src="./Images/logo_share.png" alt="Image de partage"></a>
-
+                    
                     <ul>
                         <li>
                             <!-- Bouton lien linkedin -->
                             <a class="contain-share-back img-share" href="#"><img src="./Images/logo_linkedin.png" alt="Image de linkedin"></a>
                         </li>
-
+                    
                         <li>
                             <!-- Bouton lien facebook -->
                             <a class="contain-share-back img-share" href="#"><img src="./Images/logo_facebook.png" alt="Image de facebook"></a>
                         </li>
-
+                    
                         <li>
                             <!-- Bouton lien twitter -->
                             <a class="contain-share-back img-share" href="#"><img src="./Images/logo_twitter.png" alt="Image de twitter"></a>
                         </li>
-
+                    
                         <li>
                             <!-- Bouton lien boite email -->
                             <a class="contain-share-back img-share" href="#"><img src="./Images/logo_email.png" alt="Image de boite email"></a>
