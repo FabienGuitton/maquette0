@@ -12,7 +12,11 @@ body {
 h1 {
     color: #fff;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
+    font-size: 50pt;
+    font-family: Garnet-Capitals, sans-serif;
+    margin-left: 5vw;
+    margin-top: 16vh;
 }
 
 h2 {
@@ -21,14 +25,38 @@ h2 {
     text-align: center;
 }
 
+#bloc_1{
+    height: 98.5vh;
+}
+
+.menu-param {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 20vw;
+    height: 5vh;  
+    z-index: 4;
+
+    background-color: violet;
+}
+
+.items-param {
+    order: 3;
+}
+
+.btn-param {
+    font-size: 10pt;
+    margin-left: 2vw;
+}
+
 .contain-header {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-around;
     align-items: center;
-    margin-left: 2%;
-    margin-right: 2%;
+    padding-top: 7vh;
+    margin-left: 5vw;
 }
 
 .items-header {
@@ -37,45 +65,53 @@ h2 {
 
 #logo {
     color: #fff;
-    size: 20pt;
+    font-size: 40pt;
+    font-family: Saral-Devanagari-Roman, sans-serif;
     text-decoration: none;
     text-transform: uppercase;
+    margin-right: 6vw;
 }
 
-.text-header {
+.btn-header {
     color: #fff;
     text-decoration: none;
-    size: 10pt;
+    font-size: 10pt;
+    font-family: Room, sans-serif;
     text-transform: uppercase;
+    margin: 1.5vw;
 }
 
-#bloc_1{
-    height: 98.5vh;
+#iconeSearch {
+    margin-left: 12vw;
 }
 
-.contain-different-menu {
+.contain-btn-slider {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
-    height: 20%;
+    height: 10vw;
+    width: 110vw;
+    margin-top: 21.7vh;
     z-index: 3;
 }
 
-.items-different-menu {
+.items-btn-slider {
     order: 4;
 }
 
-.text-different-menu {
+.text-btn-slider {
     width: 12em;
     text-align: center;
-    font-size: 20px;
+    font-size: 10pt;
+    font-family: Room, sans-serif;
+    font-weight: 700;
     text-transform: uppercase;
     padding-left: 2%;
     padding-right: 2%;
     height: 100%;
     align-content: center;
-    background-color: white;
+    background-color: #fff;
 }
 
 .contain-accueil {
