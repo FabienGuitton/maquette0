@@ -1,24 +1,34 @@
-let bouton_recrutement = document.getElementById('btnRecrutement');
-let bouton_interim = document.getElementById('btnInterim');
-let bouton_performance = document.getElementById('btnPerformance');
-let bouton_transformation = document.getElementById('btnTransformation');
+let pageBase = document.getElementById("pageBase");
+let pageRecrutement = document.getElementById("pageRecrutement");
+let pageInterim = document.getElementById("pageInterim");
+let pagePerformance = document.getElementById("pagePerformance");
+let pageTransition = document.getElementById("pageTransition");
+
+let img1Bloc1 = document.getElementById("img1Bloc1");
+let img2Bloc1 = document.getElementById("img2Bloc1");
+let img3Bloc1 = document.getElementById("img3Bloc1");
+let img4Bloc1 = document.getElementById("img4Bloc1");
+let img5Bloc1 = document.getElementById("img5Bloc1");
+
+let back1 = (pageBase, img1Bloc1);
+let back2 = (pageRecrutement, img2Bloc1);
+let back3 = (pageInterim, img3Bloc1);
+let back4 = (pagePerformance, img4Bloc1);
+let back5 = (pageTransition, img5Bloc1);
+
 let backColor = document.getElementById('bloc_1');
 
-let btn_sliders = document.getElementsByClassName('text-btn-slider');
+let btnSliders = document.getElementsByClassName('text-btn-slider');
 
-for(let i = 0; i < btn_sliders.length; i++) {
+for(let i = 0; i < btnSliders.length; i++) {
     /* Je peux créer une variable : let mybtn = btn_sliders[i]; pour le mettre partout et plus lisible */
-    btn_sliders[i].addEventListener("click", function() {
-        let recupColor = btn_sliders[i].getAttribute("color-background");
-        console.log("couleur " + btn_sliders[i].style.backgroundColor)
-        if (btn_sliders[i].style.backgroundColor == '') {
-            backColor.style.backgroundColor = recupColor;
-            btn_sliders[i].style.backgroundColor = recupColor;
+    btnSliders[i].addEventListener("click", function() {
+        let recupColor = btnSliders[i].getAttribute("color-background");
+        if (btnSliders[i].style.backgroundColor == '') {
+            btnSliders[i].style.backgroundColor = recupColor;
         } else {
-            backColor.style.backgroundColor = '#5593b3';
-            btn_sliders[i].style.backgroundColor = '';
+            div.appendChild(imgFondBase);
+            btnSliders[i].style.backgroundColor = '';
         }
-    
-        console.log("test " + i);
     })
 }
